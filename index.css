@@ -1,0 +1,347 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    box-sizing: border-box; 
+}
+
+header {
+    background: url(./img/first-bg.jpg) no-repeat center top / cover;
+    /* padding-bottom: 160px; */
+    height: 100vh;
+}
+
+.logo{
+    margin-top: 41px;
+    float: left;
+}
+
+.container{
+    width: 930px;
+    margin: 0 auto;
+}
+
+nav{
+    float: right;
+    margin-top: 50px;
+}
+
+.menu{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li{
+    float: left;
+    display: block;
+    margin-right: 41px;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.titles_first{
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 180px;
+}
+
+h1 {
+    font-size: 75px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+.button{
+    color: black;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 20px 0px;
+    display: block;
+    width: 240px;
+    background: orange;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.title {
+    padding-top: 115px;
+}
+
+.title h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.title p{
+    color: silver;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.services{
+    margin-top: 80px;
+}
+
+.services_item{
+    width: 270px;  
+    float: left;
+    text-align: center;
+}
+
+.services_item h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.services_item p{
+    font-size: 14px;
+    color: black;
+    line-height: 1.55em;
+}
+
+.services_item:last-child{
+    float: right;
+}
+
+.services_item:nth-child(2){
+    margin-left: 60px;
+}
+
+#portfolio {
+    background: #f7f7f7;
+    padding-bottom: 230px; 
+}
+#services {
+    padding-bottom: 300px;
+}
+
+.works{
+    margin-top: 70px;
+}
+
+.works img {
+    float: left;
+}
+
+.works img:nth-child(2){
+    margin-left: 29px;
+}
+
+.works img:last-child {
+    float: right;
+}
+
+.about {
+    flex-direction: column;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    margin-top: 80px;
+    /* box-sizing: border-box; */
+}
+
+.about p{
+    width: 290px;
+    text-align: right;
+    font-size: 14px;
+    line-height: 1.60em;
+    color: silver;
+}
+
+.about h2{
+    text-align: right;
+    font-size: 18px;
+    margin: 0;
+}
+
+.about h2:nth-child(1){
+    text-transform: uppercase;
+}
+
+.about_item, .about_item2{
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.about_item .image{
+    order: 2;
+    margin-left: 38px;
+}
+
+.about_item .about_text{
+    order: 1;
+    margin-left: 50px;
+}
+
+.about_item:nth-child(2n){
+    order: 2
+}
+
+.about_item2{
+    justify-content: flex-end;
+}
+
+.about_item2 .image{
+    margin-right: 38px;
+}
+
+.about_item2 .about_text{
+    margin-right: 40px;
+}
+
+.about_item2 .about_text p{
+    text-align: left;
+}
+
+.about_item2 .about_text h2{
+    text-align: left;
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    color: silver;
+    margin-bottom: 115px;
+    margin-top: 28px;
+}
+
+
+
+/* .about img{
+    margin-left: 38px;
+}
+
+.about_item{
+    display: flex;
+    justify-content: center;
+}
+
+.about_item2{
+    margin: 0 auto;
+}
+
+.about .about_text{
+    float: left;
+    display: block;
+    text-align: right;
+}
+
+.about_text2{
+    float: right;
+    display: block;
+    text-align: right;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+
+.about_text2 p{
+    width: 290px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.60em;
+    color: silver;
+}
+
+.about_text2 h2{
+    text-align: left;
+}
+
+.about_item2 img{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    color: silver;
+    margin-bottom: 115px;
+    margin-top: 28px;
+} */
+
+
+
+/* .aboutas_item h2:nth-child(1){
+    text-transform: uppercase;
+}
+
+.aboutas_item h2:last-child{
+
+}
+
+.aboutas_item p{
+    color: black;
+    font-size: 14px;
+    line-height: 1.60em;
+}
+
+.aboutas_item img{
+    float: right;
+    margin-left: 38px;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.aboutas{
+
+} */
+
+/* .aboutas_item {
+    margin-bottom: 95px;
+    /* width: 290px;
+    display: block; */
+
+
+    /* .aboutas_item img {
+    margin-left: 39px;
+    margin-right: 39px;
+    float: left;
+} */
+
+
+/* .aboutas_item textabout {
+    
+} */
+
+/* .textabout{
+    width: 278px;
+} */
